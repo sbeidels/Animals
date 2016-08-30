@@ -29,13 +29,13 @@ function buildTable(data) {
 			var newCellName = document.createElement("td");
 			newCellName.textContent = data[i].animalName;
 			var newCellSpecies = document.createElement("td");
-			newCellRep.textContent = data[i].species;
+			newCellSpecies.textContent = data[i].species;
 			var newCellBreed = document.createElement("td");
-			newCellWeight.textContent = data[i].breed;
+			newCellBreed.textContent = data[i].breed;
 			var newCellDob = document.createElement("td");
-			newCellDate.textContent = data[i].dob;
+			newCellDob.textContent = data[i].dob;
 			var newCellDateIn = document.createElement("td");
-			newCellDate.textContent = data[i].dateIn;
+			newCellDateIn.textContent = data[i].dateIn;
 			
 			newRow.appendChild(newCellName);
 			newRow.appendChild(newCellSpecies);
