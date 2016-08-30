@@ -1,0 +1,47 @@
+<h1>Row to update</h1>
+
+<!--id is id of row to be updated-->
+<form>
+<input type="hidden" id="hiddenVal" value = "{{id}}">
+</form>
+
+
+
+
+
+
+
+<form>
+  <fieldset>
+  
+  <label for="workName">Workout Name</label>
+  <input type="text" name="workName" id="workName" value = "{{this.name}}">
+  </br>
+  
+  <label for="reps">Number of Reps</label>
+  <input type="number" name="reps" id="reps" value=>
+  </br>
+  
+  <label for="weight">Weight used</label>
+  <input type="number" name="weight" id="weight">
+  </br>
+  
+  <label for="date">Date of Workout</label>
+  <input type="text" name="date" id="date">
+  </br>
+  
+  <p>Weight Units<p>
+  <label for="lbsbutton">Lbs</label>
+  <input type="radio" name="lbs" id="lbsbutton" value="lbs">
+  <label for="kgsbutton">Kgs</label>
+  <input type="radio" name="lbs" id="kgsbutton" value="kgs">
+ 
+  </br>
+  <input type="submit" name="updateWork" id="updateWork">
+  
+  </fieldset>
+</form>
+
+
+
+<script src="update.js"></script>
