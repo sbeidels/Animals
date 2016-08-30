@@ -27,7 +27,7 @@ function buildTable(data) {
 			var newRow = document.createElement("tr");
 						
 			var newCellName = document.createElement("td");
-			newCellName.textContent = data[i].name;
+			newCellName.textContent = data[i].animalName;
 			var newCellSpecies = document.createElement("td");
 			newCellRep.textContent = data[i].species;
 			var newCellBreed = document.createElement("td");
@@ -129,7 +129,7 @@ function iniBuildTable() {
 			
 			
 			var newCellName = document.createElement("td");
-			newCellName.textContent = data[i].name;
+			newCellName.textContent = data[i].animalName;
 			var newCellSpecies = document.createElement("td");
 			newCellRep.textContent = data[i].species;
 			var newCellBreed = document.createElement("td");
